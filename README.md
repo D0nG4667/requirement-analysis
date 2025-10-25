@@ -128,3 +128,42 @@ Non-functional requirements describe **how the system should perform** rather th
 - **Maintainability:** Code is modular and well-documented for easier updates and bug fixes.  
 
 By defining both **functional and non-functional requirements**, development teams ensure that the system not only **performs its intended tasks** but also **meets user expectations for quality, security, and usability**.
+
+---
+
+## Use Case Diagrams
+
+Use Case Diagrams are **visual representations of the interactions between users (actors) and the system**, helping teams understand system functionality and requirements.  
+They provide the following benefits:
+
+- Clarify how different users interact with the system.
+- Help identify required functionalities and edge cases.
+- Improve communication among stakeholders, designers, and developers.
+
+### Booking System Use Case Diagram
+
+```mermaid
+%%{init: {"theme":"base"}}%%
+flowchart TD
+    classDef titleStyle fill:#f9f,stroke:#333,stroke-width:2px,font-size:18px,font-weight:bold;
+    title["Booking System Use Case Diagram"]:::titleStyle
+
+    title --> Guest
+    title --> RegisteredUser
+    title --> Admin
+
+    Guest --> SearchProperties["Search Properties"]
+    Guest --> ViewDetails["View Property Details"]
+    Guest --> RegisterAccount["Register Account"]
+
+    RegisteredUser --> BookProperty["Book Property"]
+    RegisteredUser --> CancelBooking["Cancel Booking"]
+    RegisteredUser --> ViewHistory["View Booking History"]
+    RegisteredUser --> MakePayment["Make Payment"]
+    RegisteredUser --> UpdateProfile["Update Profile"]
+
+    Admin --> ManageListings["Manage Listings"]
+    Admin --> ApproveBookings["Approve/Reject Bookings"]
+    Admin --> GenerateReports["Generate Reports"]
+```
+
