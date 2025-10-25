@@ -167,3 +167,30 @@ flowchart TD
     Admin --> GenerateReports["Generate Reports"]
 ```
 
+---
+
+## Acceptance Criteria
+
+Acceptance Criteria (AC) are **specific, measurable conditions that a feature or functionality must satisfy** to be considered complete and acceptable by stakeholders. They bridge the gap between requirement definition and testing, ensuring that **the delivered product meets user expectations**.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarifies Expectations:** Clearly defines what “done” means for a feature, reducing misunderstandings between developers, designers, and stakeholders.  
+- **Supports Testing:** Provides a concrete basis for creating test cases and validating that the feature works as intended.  
+- **Ensures Quality:** Helps catch issues early by specifying functional and non-functional requirements in measurable terms.  
+- **Improves Communication:** Serves as a shared reference for the development team, QA, and stakeholders to ensure alignment.  
+- **Facilitates Iterative Development:** In agile workflows, AC guides incremental development and validates features in each sprint.
+
+### Example: Checkout Feature in a Booking Management System
+
+**Feature:** Booking Checkout
+
+**Acceptance Criteria:**
+
+1. The user must be able to select a payment method (e.g., credit card, PayPal) and submit payment.  
+2. Upon successful payment, the system generates a booking confirmation and displays a confirmation page.  
+3. The confirmation email must be sent to the user **within 2 minutes** of successful checkout.  
+4. The system prevents submission if any required field is empty or invalid (e.g., incorrect credit card number).  
+5. The checkout process must complete within **5 seconds** under normal system load.  
+
+By clearly defining acceptance criteria like the above, the development team can **build a user-friendly, reliable, and predictable checkout experience** that meets both functional and non-functional expectations.
