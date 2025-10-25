@@ -37,6 +37,7 @@ Requirement Analysis is thus a **cornerstone of successful software development*
 ---
 
 ## Why is Requirement Analysis Important?
+
 Requirement Analysis is **critical in the SDLC** for several reasons:
 
 1. **Ensures Stakeholder Alignment**  
@@ -53,3 +54,43 @@ Requirement Analysis is **critical in the SDLC** for several reasons:
 
 5. **Facilitates Communication**  
    Serves as a communication tool among **developers, designers, testers, and clients**, ensuring everyone has a shared understanding of expectations.
+
+---
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several **structured activities** to ensure the system meets stakeholder expectations and provides a seamless user experience. The key activities include:
+
+- **Requirement Gathering 🗂️**  
+  Collect initial requirements from stakeholders using techniques such as:  
+  - **Interviews:** Engage directly with stakeholders to understand their goals and expectations.  
+  - **Surveys/Questionnaires:** Gather input from a broader audience efficiently.  
+  - **Workshops:** Collaboratively discuss requirements and priorities.  
+  - **Observation:** Watch end-users interact with current systems to identify pain points.  
+  - **Document Analysis:** Review existing documentation, reports, and workflows for relevant information.
+
+- **Requirement Elicitation ✍️**  
+  Refine and explore requirements to ensure completeness and clarity:  
+  - **Brainstorming:** Generate ideas and uncover potential needs.  
+  - **Focus Groups:** Engage small stakeholder groups for detailed discussions.  
+  - **Prototyping:** Create wireframes or mockups to help stakeholders visualize the system and refine requirements.  
+
+- **Requirement Documentation 📚**  
+  Organize and record requirements in a structured format for reference and development:  
+  - **Requirement Specification Documents:** Detailed listing of functional and non-functional requirements.  
+  - **User Stories:** Describe features from the user perspective.  
+  - **Use Cases:** Visualize user-system interactions to ensure clarity of functionality.
+
+- **Requirement Analysis and Modeling 📊**  
+  Examine, prioritize, and structure requirements to assess feasibility and impact:  
+  - **Requirement Prioritization:** Focus on high-impact and critical features first.  
+  - **Feasibility Analysis:** Assess technical, financial, and time constraints.  
+  - **Modeling:** Use tools like data flow diagrams, entity-relationship diagrams, or wireframes to visualize requirements and interactions.  
+
+- **Requirement Validation ✅**  
+  Confirm that documented requirements are accurate, complete, and testable:  
+  - **Review and Approval:** Collaborate with stakeholders to ensure accuracy.  
+  - **Acceptance Criteria:** Define clear and measurable criteria for each requirement.  
+  - **Traceability:** Track each requirement throughout design, development, and testing to ensure nothing is missed.
+
+By performing these activities meticulously, teams can **deliver a user-centered, intuitive, and functional product**, while reducing misunderstandings and costly revisions later in the development lifecycle.
